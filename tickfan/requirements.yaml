@@ -1,0 +1,21 @@
+packages:
+  "framer-motion": "For page transitions and highly polished interactive animations"
+  "recharts": "For the fan intelligence system data visualizations"
+  "date-fns": "For date formatting and countdown timers"
+  "clsx": "Utility for conditionally joining classNames"
+  "tailwind-merge": "Utility for merging tailwind classes without style conflicts"
+
+images:
+  - path: "artifacts/tickfan/public/images/hero-bg.png"
+    description: "Abstract geometric pattern in Saudi Green and rich Gold with subtle light leaks, evoking a modern dynamic sports stadium atmosphere"
+    aspect_ratio: "16:9"
+  - path: "artifacts/tickfan/public/images/pattern-bg.png"
+    description: "Subtle dark repeating chevron and diamond pattern inspired by traditional Saudi motifs but modernized for a tech platform, very low opacity"
+    aspect_ratio: "16:9"
+  - path: "artifacts/tickfan/public/images/fan-id-bg.png"
+    description: "Holographic security texture with green and gold shifting gradients, macro shot, suitable for a digital ID card background"
+    aspect_ratio: "3:4"
+
+notes:
+  - Assuming API is available at /api via proxy and generated hooks from @workspace/api-client-react are fully functional.
+  - Using framer-motion for high-end micro-interactions.
